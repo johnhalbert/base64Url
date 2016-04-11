@@ -159,6 +159,6 @@ function base64UrlEncode(input)
 
 // Provide commandline output
 if (process.argv[2])
-  console.log(base64UrlEncode(process.argv.slice(2, process.argv.length).join(' ').replace(/'/g, '\'')));
+  console.log(base64UrlEncode(process.argv.slice(2, process.argv.length).join(' ')));
 
 module.exports = base64UrlEncode;
