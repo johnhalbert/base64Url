@@ -1,3 +1,9 @@
+/**
+ * @name base64UrlEncode
+ * @description - Base64Url Encoder for URL safe base64 string generation
+ * @param {string} input - The string to encode
+ * @returns {string} - The Base64Url encoded string
+ */
 function base64UrlEncode(input)
 {
   var base64out = '',
