@@ -6,6 +6,7 @@
  */
 function base64UrlEncode(input)
 {
+  // Output and base64Url lookup table
   var base64out = '',
       base64URL =
       ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R',
