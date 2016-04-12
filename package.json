@@ -1,0 +1,24 @@
+{
+  "name": "base64url",
+  "version": "0.0.1",
+  "description": "Base 64 URL Encoder/Decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnhalbert/base64Url.git"
+  },
+  "keywords": [
+    "base64url",
+    "encode",
+    "decode"
+  ],
+  "author": "John Halbert <john@johnhalbert.com> (http://johnhalbert.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnhalbert/base64Url/issues"
+  },
+  "homepage": "https://github.com/johnhalbert/base64Url#readme"
+}
