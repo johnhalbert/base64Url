@@ -20,8 +20,6 @@ function base64UrlDecode(base64UrlString)
   var base64UrlBits = base64UrlToBits(base64UrlString),
       unicodeString = base64BitsToUnicode(base64UrlBits);
 
-      console.log(base64UrlBits)
-
   // Return the formatted string
   return unicodeString;
 
@@ -90,7 +88,8 @@ function base64UrlDecode(base64UrlString)
     // corresponding character from the number that was derived from those bits
     // Once the character has been found, append it to the unicode string to be
     // returned
-    for (var i = 0; i < base64UrlBits.length; i++) {
+    while (base64UrlBits.length > 0)
+    {
       var bitsToConvert = base64UrlBits.splice(0, 8);
       bitsToConvert = bitsToConvert.join('');
       bitsToConvert = parseInt(bitsToConvert, 2);
