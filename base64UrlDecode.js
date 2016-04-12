@@ -22,6 +22,7 @@ function base64UrlDecode(base64UrlString)
 
       console.log(base64UrlBits)
 
+  // Return the formatted string
   return unicodeString;
 
   /**
