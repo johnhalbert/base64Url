@@ -7,9 +7,10 @@ var base64UrlEncode = require('./base64UrlEncode'),
  * @module base64url-util
  * @description - Base64URL Encoder and Decoder for NodeJS
  * @example:
- * `var base64Url = require('base64Url');
- *  var encoded = base64Url.encode('Some text'); // 'U29tZSB0ZXh0'
- *  var decoded = base64Url.decode(encoded);  // 'Some text'`
+ * ```var base64Url = require('base64Url');
+ *  var encoded = base64Url.encode('Some text');  // 'U29tZSB0ZXh0'
+ *  if (base64Url.verify(encoded))  // true
+ *    var decoded = base64Url.decode(encoded);  // 'Some text'```
  */
 exports.encode = base64UrlEncode;
 exports.decode = base64UrlDecode;

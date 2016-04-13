@@ -8,5 +8,6 @@ Example:
 var base64Url = require('base64url-util');
 
 var encoded = base64Url.encode('Some text'); // 'U29tZSB0ZXh0'
-var decoded = base64Url.decode(encoded); // 'Some text'
+if (base64Url.verify(encoded))  // true
+  var decoded = base64Url.decode(encoded); // 'Some text'
 ```
