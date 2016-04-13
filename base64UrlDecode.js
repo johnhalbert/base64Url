@@ -1,4 +1,5 @@
 /**
+ * @module base64url-util
  * @name base64UrlDecode
  * @description - Decodes base 64 url safe strings to their original unicode
  *                representations

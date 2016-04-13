@@ -1,4 +1,5 @@
 /**
+ * @module base64url-util
  * @name base64UrlEncode
  * @description - Base64Url Encoder for URL safe base64 string generation
  * @param {string} input - The string to encode
