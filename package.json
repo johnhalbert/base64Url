@@ -1,6 +1,6 @@
 {
   "name": "base64url-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base 64 URL Encoder/Decoder",
   "main": "index.js",
   "scripts": {
